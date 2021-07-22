@@ -1,0 +1,19 @@
+.cats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cat {
+  padding: 8px;
+  margin: 0 8px;
+}
+
+.cat h3 {
+  text-align: center;
+}
+
+.cat img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
